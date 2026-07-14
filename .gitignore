@@ -1,0 +1,16 @@
+# Dataset (download manually from Kaggle)
+creditcard.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
