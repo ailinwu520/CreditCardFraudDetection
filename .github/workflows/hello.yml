@@ -1,0 +1,10 @@
+name: hello
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "QA auto integration check - hello from GitHub Actions"
