@@ -19,4 +19,21 @@ The dataset used in this project is available on Kaggle:
 
 **Note:** To run this code, you need to download the dataset manually from Kaggle and place `creditcard.csv` in the same directory as the notebook.
 
+## Setup
+1. Create and activate a virtual environment (optional but recommended).
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Download `creditcard.csv` from Kaggle (see above) and place it in the project root, or set the `CREDITCARD_CSV` environment variable to its path.
+4. Open and run `Credit Card Fraud Detection Project.ipynb` top to bottom.
 
+## Results
+Using an XGBoost classifier trained on SMOTE-resampled data:
+
+| Metric (fraud class) | Score |
+|---|---|
+| Precision | 0.74 |
+| Recall | 0.86 |
+| F1-score | 0.80 |
+| ROC-AUC | 0.98 |
